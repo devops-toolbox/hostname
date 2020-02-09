@@ -1,0 +1,8 @@
+---
+
+# Set the hostname to host_vars values
+
+- name: "system hostname set"
+  hostname:
+    name: "{{ hostname_name }}"
+  become: true
