@@ -8,10 +8,10 @@ hostname
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.hostname](https://galaxy.ansible.com/devops-toolbox.hostname)
+[https://galaxy.ansible.com/devopstoolbox.hostname](https://galaxy.ansible.com/devopstoolbox.hostname)
 
 ```bash
-ansible-galaxy install devops-toolbox.hostname
+ansible-galaxy install devopstoolbox.hostname
 ```
 
 Requirements
@@ -49,7 +49,7 @@ Example Playbook
   tasks:
     - name: hostname is configured
       import_role:
-        name: devops-toolbox.hostname
+        name: devopstoolbox.hostname
       vars:
         hostname_remove_packages: true
         hostname_enable_service: true
@@ -67,4 +67,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
